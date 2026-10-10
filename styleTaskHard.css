@@ -1,0 +1,32 @@
+body {
+    padding-top: 71px;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.map-wrapper {
+    width: 100%;              
+    aspect-ratio: 16 / 9;     
+    max-width: 600px;        
+}
+
+.wrapper {
+    display: flex;             
+    align-items: center;       
+    justify-content: space-between; 
+    gap: 40px;                 
+    flex-wrap: wrap;           
+}
+
+.content-text-first {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    min-height: 300px;         
+}
